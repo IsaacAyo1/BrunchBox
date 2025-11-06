@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brunchbox | Homepage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Header-->
+<section class="header">
+	<nav class="navbar">
+		<a href="index.html" class="nav-logo">
+			<h2 class="logo-text">Brunchbox</h2>
+		</a>
+		<div class="link" id="links">
+			<div class="menu"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div> 
+			<ul>
+				<li><a href="index.html" class="link-list">Home</a></li>
+				<li><a href="#about" class="link-list">About</a></li>
+				<li><a href="#menu" class="link-list">Menu</a></li>
+				<li><a href="#testimony" class="link-list">Testimony</a></li>
+				<li><a href="#gallery" class="link-list">Gallery</a></li>
+				<li><a href="#contact" class="link-list">Contact</a></li>
+			</ul>
+		</div>
+		<div class="cancel"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div> 
+	</nav>
+</section>
+
+<!--Hero Section-->
+<section class="hero-sec">
+	<div class="sec-content">
+		<div class="hero-details">
+			<h2 class="title">Best  Coffee</h2>
+			<h3 class="subtitle">Make your day great with our special coffee!</h3>
+			<p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+			<div class="buttons">
+				<a href="#" class="order-btn">Order Now</a>
+				<a href="#" class="contact-btn">Contact Us</a>
+			</div>
+		</div>
+		<div class="hero-img">
+			<img src="img/coffee-hero-section.png">
+		</div>
+	</div>
+</section>
+
+<!--About Section-->
+<section class="about-sec" id="about">
+		<div class="sec-content">
+			<div class="about-img">
+				<img src="img/about-image.jpg">
+			</div>
+			<div class="about-details">
+				<h2 class="sec-title">About Us</h2>
+				<p class="about-text">At Brunchbox, we pride ourselves on being a go-to destination for fastfood lovers
+					and conversation seekers alike. We're dedicated to providing an exceptional experience in a cozy and 
+					inviting atmosphere, where guest can relax, unwind, and enjoy their time in comfort.
+				</p>
+				<div class="socials">
+		  	<a href="#"><i class="fab fa-facebook-f"></i> </a>
+		  	<a href="#"><i class="fab fa-twitter"></i></a>
+		  	<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+
+			</div>
+		</div>
+</section>
+
+<!---Menu Section-->
+<section class="menu-sec" id="menu">
+	<h2 class="sec-title">Our Menu</h2>
+	<div class="sec-content">
+		<ul class="menu-list">
+
+			<li class="menu-item">
+				<img src="img/hot-beverages.png">
+				<div class="menu-details">
+				<h3 class="name">Hot Beverages</h3>
+				<p class="menu-text">Wide range of steaming hot coffee to make you fresh and light.</p>
+				</div>
+			</li>
+			<li class="menu-item">
+				<img src="img/cold-beverages.png">
+				<div class="menu-details">
+				<h3 class="name">Cold Beverages</h3>
+				<p class="menu-text">Creamy and frothy cold coffee to make you cool.</p>
+				</div>
+			</li>
+			<li class="menu-item">
+				<img src="img/refreshment.png">
+				<div class="menu-details">
+				<h3 class="name">Refreshment</h3>
+				<p class="menu-text">Fruit and ice refreshing drink to make you refresh.</p>
+				</div>
+			</li>
+			<li class="menu-item">
+				<img src="img/special-combo.png">
+				<div class="menu-details">
+				<h3 class="name">Special Combos</h3>
+				<p class="menu-text">Your favorite eating and drinking combination.</p>
+				</div>
+			</li>
+			<li class="menu-item">
+				<img src="img/desserts.png">
+				<div class="menu-details">
+				<h3 class="name">Dessert</h3>
+				<p class="menu-text">Satiate your palate and take you on a culinary treat.</p>
+				</div>
+			</li>
+			<li class="menu-item">
+				<img src="img/burger-frenchfries.png">
+				<div class="menu-details">
+				<h3 class="name">Burger & French Fries</h3>
+				<p class="menu-text">Quick bites to satisfy your small size hunger.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<!---Testimonials--->
+<section class="testimony-sec" id="testimony">
+	<h2 class="sec-title">Testimonials</h2>
+	<div class="sec-content">
+		<div class="slider-con swiper">
+			<div class="slider-wrap">
+				<ul class="testimony-list swiper-wrapper">
+
+					<li class="testimony swiper-slide">
+						<img src="img/user-1.jpg">
+						<h3 class="name">Sarah Johnson</h3>
+						<i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"</i>
+					</li>
+
+					<li class="testimony swiper-slide">
+						<img src="img/user-2.jpg">
+						<h3 class="name">James Wilson</h3>
+						<i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"</i>
+					</li>
+
+					<li class="testimony swiper-slide">
+						<img src="img/user-3.jpg">
+						<h3 class="name">Micheal Brown</h3>
+						<i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"</i>
+					</li>
+
+					<li class="testimony swiper-slide">
+						<img src="img/user-4.jpg">
+						<h3 class="name">Emily Harris</h3>
+						<i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"</i>
+					</li>
+
+					<li class="testimony swiper-slide">
+						<img src="img/user-5.jpg">
+						<h3 class="name">Anthony Thompson</h3>
+						<i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"</i>
+					</li>
+
+				</ul>
+
+				<div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!---Gallery--->
+<section class="gallery-sec" id="gallery">
+	<h2 class="sec-title">Gallery</h2>
+	<div class="sec-content">
+
+		<ul class="gallery-list">
+			<li class="gallery-item">
+				<img src="img/gallery-1.jpg">
+			</li>
+
+			<li class="gallery-item">
+				<img src="img/gallery-2.jpg">
+			</li>
+
+			<li class="gallery-item">
+				<img src="img/gallery-3.jpg">
+			</li>
+
+			<li class="gallery-item">
+				<img src="img/gallery-4.jpg">
+			</li>
+
+			<li class="gallery-item">
+				<img src="img/gallery-5.jpg">
+			</li>
+
+			<li class="gallery-item">
+				<img src="img/gallery-6.jpg">
+			</li>
+		</ul>
+	</div>
+</section>
+
+<!---Contact--->
+<section class="contact-sec" id="contact">
+	<h2 class="sec-title">Contact Us</h2>
+	<div class="sec-content">
+		<ul class="contact-list">
+			<li class="contact-info">
+				<i class="fa-solid fa-house"></i>
+				<p>Igando, Lasu-Isheri Road.</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-envelope"></i>
+				<p>brunchbox@gmail.com</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-phone"></i>
+				<p>+234 813 113 1989</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-clock"></i>
+				<p>Monday - Friday: 9:00 Am - 7:00 PM</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-clock"></i>
+				<p>Sunday: 12:00 PM - 7:00 PM</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-globe"></i>
+				<p>www.bruchbox.com</p>
+			</li>
+		</ul>
+
+		<form class="contact-form" action="#">
+			<input type="text" class="form-input" placeholder="Enter Your Name" required/>
+			<input type="email" class="form-input" placeholder="EnterYour Email" required/>
+			<textarea placeholder="Your Message" class="form-input" required/></textarea>
+			<button class="submit-btn">Submit</button>
+		</form>
+	</div>
+</section>
+
+<!---footer--->
+<footer class="footer-sec">
+	<div class="sec-content">
+		<p>Created By <a href="index.html">Brunchbox</a> | &#169; 2025 All Rights Reserved</p>
+	
+	<div class="media-icons">
+		  <a href="#"><i class="fab fa-facebook-f"></i> </a>
+		  <a href="#"><i class="fab fa-twitter"></i></a>
+		  <a href="#"><i class="fab fa-instagram"></i></a>
+	  </div>
+	</div>
+</footer>
+
+
+
+<!--Js for slider-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--Js for toggle-->
+<script src="script.js"></script>
+
+</body>
+</html>
